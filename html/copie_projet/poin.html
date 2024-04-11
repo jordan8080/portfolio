@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Projet Poin</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/poin/poin.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Nous avons entrepris la création d'un jeu vidéo en Python doté d'une interface graphique, conçu pour enseigner le langage de programmation Python à travers un ensemble de quêtes engageantes. À la fin de ce jeu, les joueurs auront l'opportunité de développer leur propre jeu vidéo, choisi initialement entre un Mastermind ou un jeu de la vie. Ces deux jeux font d'ailleurs partie des projets que nous avons réalisés au cours de l'année, ce qui maintient une cohérence avec notre programme académique.
+																																																																																																																																																																																								
+				L'inspiration pour notre concept de jeu découle de l'observation de la nature, où l'apprentissage survient sans enseignant direct. Dans le règne animal, le jeu émerge comme la méthode privilégiée d'acquisition de compétences. Notre approche s'aligne sur ce principe, cherchant à lier l'utile à l'agréable en s'inspirant du modèle naturel. De plus, notre jeu cible principalement les enfants de 8 à 14 ans, une période où le cerveau est particulièrement flexible et malléable, favorisant ainsi un apprentissage optimal. Bien que notre approche gamifiée soit accessible à tous les âges, elle vise à capitaliser sur cette période propice à l'absorption des connaissances.
+
+
+			</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				18/11/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				27/06/2023</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

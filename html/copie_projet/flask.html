@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Déploiement d'un serveur apache</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/flask/flask1.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Dans le cadre d'un projet transversal, j'ai été impliqué dans le développement d'une application orientée objet en utilisant Python. La mission consistait à créer un site Web vitrine pour une société. J'ai été chargé de concevoir une application de suivi de la relation client. Cette application permet de référencer les prospects et de planifier des rendez-vous avec ces derniers pour leur présenter les produits de la société. L'application exigeait une authentification par identifiant et mot de passe pour accéder à l'espace collaborateur, et affiche les rendez-vous en fonction de l'utilisateur connecté. Les collaborateurs peuvent consulter la liste des clients et des produits, ainsi que d'ajouter, supprimer et valider des rendez-vous et ajouter des commentaires post rendez-vous. À partir de cette application, nous pouvons gérer des prospects moraux et des prospects physiques (affichage, modification et suppression) et voir la liste des produits. Cette application permet donc de gérer efficacement les rendez-vous d'une société.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				02/02/2023</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				31/03/2023</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/flask/flask2.png" alt="Image du Container 1">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>J'ai chiffré les mots de passe dans la base de données. Pour garantir que seuls les membres de l'entreprise utilisant l'application puissent s'inscrire, j'ai sécurisé le processus d'inscription en exigeant un code d'entreprise unique fourni par l'entreprise. Seules les personnes ayant le code approprié peuvent s'inscrire. Cela permet donc de se conformer aux normes de sécurité en vigueur, telles que le RGPD, en adoptant des mesures de sécurité adéquates (longueur du mot de passe, l'utilisation de caractères spéciaux…). Cela nous permet de mettre en place une interface de connexion à la fois sécurisée et authentique.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/flask/flask3.png" alt="Image du Container 2">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Premièrement, nous avions un ensemble de directives à suivre définies dans un cahier des charges. Pour ce projet, j'ai travaillé avec deux camarades de classe. Pour simplifier notre avancée du projet, nous avons mis en place un Trello. Ce Trello va permettre de planifier et de partager les étapes du projet. Grâce à cet outil, notre équipe a pu rester organisée et atteindre nos objectifs avec succès. Nous avons également mis en place un GitHub pour faciliter le travail en groupe.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/flask/flask4.png" alt="Image du Container 3">
+			<p>
+				<strong>Organiser son développement professionnel</strong>
+			</p>
+			<p>En mettant en place cette application web, je me suis plus familiarisée avec le langage python en utilisant la programmation orienté objet que je ne maitrisais pas vraiment. De plus, je me suis familiarisée avec la conception d'un site web en python avec l'intégration d'une base de donnée (BDD MySQL), un aspect qui était jusqu'alors inconnu pour moi.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

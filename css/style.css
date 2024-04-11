@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+.info-bubble,
+.info-bubble1 {
+    flex: 1;
+    max-width: 400px; /* Ajuster la largeur maximale selon vos besoins */
+    margin: 10px;
+}
+
+.info-bubble,
+.info-bubble1 {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.info-bubble:hover,
+.info-bubble1:hover {
+    transform: scale(1.1);
+}
+
+.info-bubble1 {
+    position: relative; /* Modifier la position à relative */
+    left: 50px; /* Supprimer la position absolue et ajuster la marge si nécessaire */
+    background-color: white;
+}

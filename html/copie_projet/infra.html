@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Déploiement d'un serveur apache</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/Infra/infra.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Le présent projet s'inscrit dans le cadre d'une initiative transversale en réseau intitulée "Câblage réseau et déploiement de services réseaux". Imaginons le scénario suivant : nous collaborons au sein de l'entreprise Locburo, spécialisée dans la fourniture d'hébergement pour des entreprises souhaitant louer des bureaux sur une période allant d'un jour à plusieurs mois. Locburo possède un bâtiment qui abrite ses propres services, serveurs, et postes clients. Trois de ces bâtiments, divisés en huit bureaux chacun et équipés de cinq prises RJ45 et éventuellement du Wi-Fi, sont mis à disposition des entreprises. Avant qu'une entreprise ne loue un ou plusieurs bureaux, notre mission consiste à les préparer en assurant une connectivité Internet fiable avec un serveur DHCP et un serveur DNS. Nous devons également garantir une isolation logique entre les différentes entreprises afin de protéger leurs données. Notre responsabilité englobe le câblage des équipements, l'installation et le test des services, ainsi que la configuration du routeur pour gérer le trafic des entreprises. L'objectif ultime est de créer un environnement réseau opérationnel, sécurisé et fiable pour chaque entreprise locataire.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				18/11/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				29/01/2023</p>
+			<a href="../patrimoineInfo.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/Infra/infra2.png" alt="Image du Container 1">
+			<p>
+				<strong>Organiser son développement professionnelcd</strong>
+			</p>
+			<p>Au fil de ce projet, j'ai approfondi mes connaissances en réseau en acquérant des compétences dans la configuration de Trunks, de VLANs, ainsi que dans la mise en place d'un serveur DNS et d'un serveur DHCP. Pour parvenir à assimiler ces concepts, j'ai entrepris des recherches approfondies, consulté des vidéos et exploité diverses ressources pédagogiques. Bien que les débuts aient été difficiles et que je me sois parfois senti désorienté, cette expérience s'est avérée déterminante pour obtenir une compréhension plus approfondie des complexités du réseau. Elle a ouvert mes yeux sur les subtilités de ce domaine, et bien que je n'aie pas encore une maîtrise totale, je suis fier des progrès que j'ai accomplis.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/Infra/infra4.png" alt="Image du Container 2">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>Dans le cadre de ce projet, nous avons mis en œuvre une infrastructure composée de deux commutateurs, d'un routeur, d'une machine virtuelle pour la configuration du DNS et du DHCP, ainsi que d'un serveur Windows. L'implémentation de VLANs a permis de configurer les commutateurs conformément aux normes de sécurité établies. J'ai également déployé un serveur TFTP pour gérer les sauvegardes des routeurs et des commutateurs. Parallèlement, nous avons documenté l'évolution du projet en prenant des captures d'écran sur les machines virtuelles.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/Infra/infra5.png" alt="Image du Container 3">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Nous avons reçu un cahier des charges détaillant les exigences du projet, que nous avons suivi scrupuleusement. Pour faciliter la gestion de notre progression, nous avons opté pour l'utilisation de Trello. Cette plateforme nous a offert la possibilité de planifier et de partager les différentes étapes du projet de manière collaborative.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

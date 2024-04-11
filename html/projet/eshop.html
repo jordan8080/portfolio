@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>E-shop</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/eshop/eshop.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Après un cours sur PHP et MySQL, nous avons personnalisé un site e-commerce existant en ajoutant des fonctionnalités telles que l'affichage des produits par catégorie, l'authentification des clients avec gestion des mots de passe, la supervision administrative complète, et la gestion du processus de commande avec panier et stocks. Nous avons été encouragés à être créatifs et à intégrer des fonctionnalités personnalisées pour améliorer notre site vitrine.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				18/01/2023</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				13/02/2023</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/eshop/shop.png" alt="Image du Container 1">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>J'ai chiffré les mots de passe dans la base de données et des niveaux d'autorisation en fonction des rôles des personnes sur chaque page. Cela permet de se conformer aux normes de sécurité en vigueur, telles que le RGPD, en adoptant des mesures de sécurité adéquates. Nous avons également mis en place une option permettant de modifier notre mot de passe via un système d'envoi d'email, assurant ainsi une meilleure sécurité.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/eshop/eshop1.png" alt="Image du Container 1">
+			<p>
+				<strong>Développer la présence en ligne de l’organisation</strong>
+			</p>
+			<p>Cela m'a permis de comprendre le fonctionnement des logiciels et des sites de e-Commerce.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

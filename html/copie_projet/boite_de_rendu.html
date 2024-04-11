@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Boite de rendu</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/boite_de_rendu/boite_rendu1.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>Dans le cadre d'un projet transversal en groupe, notre solution intègre PHP, HTML et CSS pour gérer efficacement les dépôts de devoirs. Notre plateforme offre une interface conviviale permettant aux utilisateurs de télécharger, éditer et supprimer leurs devoirs en toute simplicité. Afin d'assurer la sécurité et une expérience personnalisée, nous avons mis en place un système d'inscription et de connexion. Les dépôts sont soigneusement suivis grâce à une base de données. De plus, les enseignants peuvent facilement récupérer les fichiers ZIP des devoirs, simplifiant ainsi le processus d'évaluation. Notre solution vise à améliorer l'efficacité et la collaboration au sein des projets transversaux en groupe.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				01/11/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				22/01/2023</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/boite_de_rendu/boite_de_rendubdd.jpg" alt="Image du Container 1">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>Nous avons pris des mesures de sécurité en chiffrant les mots de passe stockés dans la base de données et en attribuant des niveaux d'autorisation basés sur les rôles des utilisateurs pour chaque page. Cette approche garantit la conformité aux normes de sécurité actuelles, notamment le RGPD, en mettant en œuvre des pratiques de sécurité robustes. Ainsi, nous avons établi une interface de connexion à la fois sécurisée et authentifiée, assurant une redirection vers l'espace utilisateur approprié en fonction des autorisations accordées.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/boite_de_rendu/github_boite_rendu.png" alt="Image du Container 2">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Premièrement, un cahier des charges nous a donné un ensemble de lignes directrices à suivre. J'ai collaboré avec deux camarades de classe pour ce projet. Nous avons planifier et partager les étapes du projet avec un github. Cet outil a permis à notre équipe de rester organisée et d'atteindre nos objectifs.</p></p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/boite_de_rendu/code_boite_rendu.png" alt="Image du Container 3">
+			<p>
+				<strong>Organiser son développement professionnel</strong>
+			</p>
+			<p>Ce projet a constitué une occasion précieuse pour enrichir mes compétences en bases de données, ainsi qu'en langages de programmation tels que PHP et HTML. Cette expérience s'est avérée cruciale pour l'acquisition et le renforcement de mes compétences techniques dans le domaine du développement web, particulièrement en PHP. Elle a également ouvert de nouvelles perspectives professionnelles dans ce secteur en constante évolution.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

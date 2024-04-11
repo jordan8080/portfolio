@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Déploiement d'un serveur apache</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/apache/apache.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>Au cours d'un cours de réseaux atelier Linux, il nous a été demandé de déployer un serveur apache permettant d'héberger quatre sites internet. J'ai donc mis en place cela avec un DNS et un serveur apache sur deux machines virtuelles. Le DNS va nous permettre d'avoir accès à ces sites via leurs URL respectives : EPSI, BDE EPSI, COURS EPSI et BORNE EPSI. De plus, j'ai mis en place des mesures de sécurité, autorisant l'accès à certains sites uniquement pour des personnes authentifiées.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				02/10/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				16/10/2022</p>
+			<a href="../patrimoineInfo.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/apache/apache1.png" alt="Image du Container 1">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Pour ce TP, nous avons dû suivre un cahier des charges, établi par l'intervenant. Ce document nous a fourni des éléments à respecter. Cela a été particulièrement utile pour évaluer les tâches accomplies et celles restant à faire. En rayant les éléments réalisés, accomplis, j'ai pu avoir une vision claire de l'avancement de mon travail, ce qui a facilité l'avancée du TP.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/apache/apache2.png" alt="Image du Container 2">
+			<p>
+				<strong>Mettre à disposition des utilisateurs un service informatique</strong>
+			</p>
+			<p>Suite à la réalisation de ce TP, il nous a été demandé de fournir un rapport résumant l’ensemble des commandes et configurations mises en œuvre pour arriver à nos fins. J'ai donc réalisé une documentation explicative de mon travail effectué./p></p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/apache/apache3.png" alt="Image du Container 3">
+			<p>
+				<strong>Organiser son développement professionnel</strong>
+			</p>
+			<p>J'ai développé mes compétences en Linux et en configuration d'un DNS en regardant de nombreuses vidéos, des tutos sur le sujet. Pendant ce processus, j'ai acquis une compréhension approfondie de la gestion des systèmes Linux et de la mise en place efficace d'un service DNS.</p>
+		</div>
+		<div class="container">
+			<img src="../../img/projet/apache/apache4.png" alt="Image du Container 3">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>J'ai mis en place un DNS et un serveur apache sur deux machines virtuelles (une Ubuntu Linux et une Windows). Pour sauvegarder mon avancée en cas de problème, j'ai réalisé des snapshots sur mes machines virtuelles. J'ai également mis en place des niveaux d'habilitation associés à un service en mettant des droits d'accès en fonction des sites visités et des authentifications. Cette approche a permis de sécuriser les données des pages, mais aussi d'assurer une gestion précise des privilèges d'accès, garantissant ainsi un environnement de travail efficace et protégé.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Mastermind</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/mastermind/mastermind.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Après avoir suivi un cours sur les bases du langage Python, nous avons été chargés de mener un projet TP nommé Mastermind de manière individuelle afin d'évaluer notre niveau à la fin du module. Le Mastermind est un jeu à deux joueurs dans lequel un joueur doit trouver une combinaison gardée secrète par l'autre joueur en un nombre limité d'essais. Notre version informatique devait contenir toutes les règles de ce jeu. Nous avons joué à ce jeu classique dans notre enfance tout en développant nos compétences en programmation (Python).</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				30/11/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				05/12/2022</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/mastermind/CDC.png" alt="Image du Container 1">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Nous avons suivi les directives définies par l'intervenant dans le cadre de ce TP, conformément au cahier des charges établi. Ce document a été une ressource précieuse, facilitant l'évaluation des tâches complétées et celles qui restaient à accomplir.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

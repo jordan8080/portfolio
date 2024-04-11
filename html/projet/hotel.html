@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Hôtel Neptune</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/projet/hotel/hotel.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Au sein d'un projet transversal axé sur les bases de données, notre équipe s'est engagée dans le développement scénarisé d'un système destiné à informatiser la gestion des chambres et des réservations pour l'hôtel 3 étoiles Neptune, situé à Arras. Sous la détermination du gérant de l'établissement, nous avons opté pour la création d'un site web en PHP interconnecté avec une base de données MySQL. Ce projet, baptisé "Hôtel Neptune", vise à fournir une plateforme complète répondant aux besoins d'un hôtel.
+																												
+																					Le site élaboré offre une interface administrative permettant la gestion des chambres, des clients et des réservations. Parallèlement, il propose une interface dédiée aux clients pour consulter les chambres, effectuer des réservations avec un système de paiement intégré, rechercher des disponibilités pour une période spécifique, et gérer les profils. Le résultat final se rapproche significativement d'un site opérationnel pour un hôtel, offrant ainsi une solution complète et fonctionnelle pour répondre aux exigences de gestion de l'établissement.
+
+
+			</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				25/01/2023</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				19/03/2023</p>
+			<a href="../projet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/hotel/bdd.png" alt="Image du Container 1">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>
+				Les mots de passe sont chiffrés dans la base de données, conformément au RGPD. Des niveaux d'autorisation sont définis par rôle. Les critères de sécurité, tels que la longueur et les caractères spéciaux, sont respectés. Une option de modification de mot de passe via e-mail renforce la sécurité.
+			</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/hotel/hotel.png" alt="Image du Container 1">
+			<p>
+				<strong>Développer la présence en ligne de l’organisation</strong>
+			</p>
+			<p>Nous avons créé un site web conforme à un cahier des charges et basé sur une maquette disponible via le lien fourni. Ce projet met en lumière l'importance d'une présence en ligne pour un hôtel, permettant au gérant d'élargir la visibilité de son établissement. Le site est accessible sur mon nuage pédagogique.</p>
+		</div>
+
+
+		<div class="container">
+			<img src="../../img/projet/hotel/trello.png" alt="Image du Container 1">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Pour simplifier la gestion, nous avons utilisé Trello pour planifier et partager les étapes, restant ainsi organisés. GitHub a facilité le partage des éléments accomplis, favorisant une collaboration efficace et notre avancée collective.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/hotel/chambre.png" alt="Image du Container 1">
+			<p>
+				<strong>Mettre à disposition des utilisateurs un service informatique</strong>
+			</p>
+			<p>J'ai permis aux clients de l'hôtel de réserver leur chambre en ligne grâce à ce système, offrant ainsi une expérience utilisateur améliorée. De plus, nous avons élaboré une documentation détaillée pour expliquer notre projet.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/projet/hotel/apprendre1.png" alt="Image du Container 1">
+			<p>
+				<strong>Organiser son développement professionnel</strong>
+			</p>
+			<p>
+				Dans le cadre de ce projet, j'ai renforcé mes compétences en SQL, PHP, HTML et bases de données. Nous avons également acquis une expertise dans l'utilisation de Figma pour concevoir la maquette du site, ainsi que dans la conception d'e-mails. Ce processus d'apprentissage a approfondi mes compétences techniques dans le domaine du développement web.</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+function scrollToTop() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+		</script>
+
+	</body>
+</html>
