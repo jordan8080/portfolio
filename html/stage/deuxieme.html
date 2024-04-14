@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Stage de deuxième année (SN2)</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../img/stage/2eme/global-pre-logo-1674043362.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>
+				Dans le cadre de ma deuxieme année de Socle Numérique à l’EPSI WIS d’Arras, avec l’option BTS SIO (Services Informatiques aux Organisations), 
+								                j’ai effectué mon stage du 2 Janvier au 16 Février 2024 dans le domaine du développement informatique 
+								                dans la société Valorisoft. J'ai été "employé" comme prestataire pour la marketplace
+				<a href="https://mapiecedoccase.fr/" target="_blank">Mapiecedoccase</a>.
+			Valorisoft est une entreprise développant un DMS (data management system) rassemblant les pièces automobiles des CVHU (centre véhicules hors d'usage) partenaires.
+			
+			</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				02/01/2024</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				16/02/2024</p>
+			<a href="../stage.html">
+				<button class="button">Retour à la liste des stages</button>
+			</a>
+			<a href="../../img/stage/2eme/MORITZ-JORDAN-SN2-RAPPORT-STAGE-2023-2024-FINAL1.docx" target="blank">
+				<button class="button">Téléchargez mon rapport de stage</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../img/stage/2eme/Image1.png" alt="Image du Container 1">
+			<p>
+				<strong>Travailler en mode projet</strong>
+			</p>
+			<p>Afin de réaliser les différentes tâches m'étant assigné, j'ai été inscrit sur un site de gestion de ticket s'appelant Jira. Ce logiciel est très efficace et pratique.
+								En parallèle, un suivi s'effectuait a chaque début de journée pour vérifier mon avancement et/ou les complications rencontrées.
+			</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/stage/2eme/Image2.png" alt="Image du Container 1">
+			<p>
+				<strong>Gérer le patrimoine informatique</strong>
+			</p>
+			<p>Pour l'utilisation de statistiques que j'ai du réaliser, j'ai dû coder en SQL, sur un serveur PHPMyAdmin afin de récupérer les bonnes informations en fonction des différentes statistiques faites
+								(meilleures ventes, meilleurs clients, meilleurs fournisseurs, et module reporting fin de mois).
+			</p>
+		</div>
+
+		<div class="container">
+			<img src="../../img/stage/2eme/Image3.png" alt="Image du Container 1">
+			<p>
+				<strong>Développer la présence en ligne de l’organisation</strong>
+			</p>
+			<p>Durant mon stage, j'ai du modifier les titres de résultat des recherches de pièces afin d'amélioré le SEO (référencement) du site. afin que le site ressorte
+				à la recherche google du grand public.
+			</p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+function scrollToTop() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+		</script>
+
+	</body>
+</html>
