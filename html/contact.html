@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me contacter</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="tableau.html">Réalisations professionnelles</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="competencespro.html">Liste des compétences</a></li>
+            <li><a href="choixprojet.html">Projet</a></li>
+            <li><a href="stage.html">Stage</a></li>
+            <li><a href="veille.html">Veille</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../img/CV-MORITZ-JORDAN-ARRAS.pdf" target="_blank">Mon CV</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Me contacter</h1>
+        <form action="../php/submit_form.php" method="post">
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="text" id="phone" name="phone">
+            <label for="subject">Sujet :</label>
+            <select id="subject" name="subject">
+                <option value="general">Question générale</option>
+                <option value="tech-support">Question alternance</option>
+            </select>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>            
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="contact-info">
+            <h2>Coordonnées :</h2>
+            <p>Adresse 1 : <u>10 Rue Paul Baroux, Blangy-Tronville, 80440 </u></p>
+            <p>Adresse 2 : <u>3 Rue Beaumarchais, Arras, 62000 </u></p>
+            <p>Téléphone : <u>+33 6 30 82 28 93 </u></p>
+            <p>E-mail : <u>moritzjordan6@gmail.com </u></p>
+        </div>
+    </div>
+</body>
+</html>

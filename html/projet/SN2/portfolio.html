@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../../../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Portfolio</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../../../img/SN2/accueil.png" alt="Image principale du Projet">
+		</div>
+
+		<div id="project-info">
+			<h2>Description du Projet</h2>
+			<p>Au cours d'un cours de réseaux atelier Linux, il nous a été demandé de déployer un serveur apache permettant d'héberger quatre sites internet. J'ai donc mis en place cela avec un DNS et un serveur apache sur deux machines virtuelles. Le DNS va nous permettre d'avoir accès à ces sites via leurs URL respectives : EPSI, BDE EPSI, COURS EPSI et BORNE EPSI. De plus, j'ai mis en place des mesures de sécurité, autorisant l'accès à certains sites uniquement pour des personnes authentifiées.</p>
+			<p id="project-details">
+				<strong>Début:</strong>
+				08/10/2022</p>
+			<p id="project-details">
+				<strong>Fin:</strong>
+				16/05/2024</p>
+			<a href="../../choixprojet.html">
+				<button class="button">Retour à la liste des projets</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../../../img/SN2/linkedin.png" alt="Image du Container 1">
+			<p>
+				<strong>Organiser son développement professionnel</strong>
+			</p>
+			<p>J'ai rendu accessible à tous un service informatique en ligne. En mettant à disposition ce service, je permets à un large public d'y accéder facilement et de bénéficier des avantages qu'il offre. Cela contribue à accroître la portée et l'utilité du service, en le mettant à la disposition de personnes diverses et variées. Cette accessibilité favorise également la collaboration et le partage d'informations.</p>
+		</div>
+
+		<div class="container">
+			<img src="../../../img/SN2/tableau.png" alt="Image du Container 2">
+			<p>
+				<strong>Mettre à disposition des utilisateurs un service informatique</strong>
+			</p>
+			<p>Suite à la réalisation de ce TP, il nous a été demandé de fournir un rapport résumant l’ensemble des commandes et configurations mises en œuvre pour arriver à nos fins. J'ai donc réalisé une documentation explicative de mon travail effectué./p></p>
+		</div>
+
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			// Show the "Up to Top" button when scrolling down
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+// Scroll to the top when the button is clicked
+function scrollToTop() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+		</script>
+
+	</body>
+</html>

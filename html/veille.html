@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Présentation du Projet</title>
+		<link rel="stylesheet" href="../css/style5.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Veille technologique</h1>
+		</header>
+
+		<div id="main-image">
+			<img src="../img/veille/biometrie1.png" alt="Thales">
+		</div>
+
+		<div id="project-info">
+			<h2>Description de la veille technologique</h2>
+			<p>
+				La reconnaissance biométrique est une technologie qui identifie les individus en utilisant leurs caractéristiques physiques ou comportementales uniques, comme les empreintes digitales, les traits du visage ou la voix.
+                Pour moi c'est vraiment une technologie importante, et elle nous entoure sans qu'on s'en apercoive, par exemple sur un téléphone, ces derniers comportent pour certains de la reconnaissance faciale, et pour d'autres de la reconnaissance digitale.
+                Via l'entreprise IDEMIA, on arrive en plus désormais maintenant aussi a reconnaitre un visage couvert d'un masque, c'est vraiment une technologie sans limie qui dans l'avenir sera irremplacable.
+                Par exemple pour payer avec une CB, on pourait utiliser l'empreinte digitale pour payer ce qui renforcerait la sécurité et éviterai de se faire voler sa CB.
+
+            </p>
+			<a href="index.html">
+				<button class="button">Retour à la page d'accueil</button>
+			</a>
+		</div>
+
+		<div class="container">
+			<img src="../img/veille/biometrie2.png" alt="Image du Container 1">
+			<p>
+				<strong>lecture d'article</strong>
+			</p>
+			<p>
+				Afin d'accroitre ma connaissance sur ce sujet qu'est la reconnaissance biométrique, je me suis documenté via plusieurs articles comme celui de "<a href="https://www.lemonde.fr/pixels/article/2023/06/12/reconnaissance-biometrique-dans-l-espace-public-ce-que-contient-la-loi-en-debat-au-senat_6177295_4408996.html">Le Monde"</a>
+                qui nous informe sur les législations concernant la biométrie, ce qui est très utile.
+			</p>
+		</div>
+
+		<div class="container">
+			<img src="../img/veille/biometrie3.png" alt="Image du Container 1">
+			<p>
+				<strong>Suivi des actualités</strong>
+			</p>
+			<p>Comme toute autre technologie, la reconnaissance biométrique évolue, et connait des tendances, j'ai activé les notifications de plusieurs blog, comme Le Monde ou encore <a href="https://www.futura-sciences.com/tech/dossiers/technologie-tendances-biometrie-965/">Futura</a> d'ou provient cette 
+                article. 
+            </p>
+		</div>
+
+		<button id="scroll-to-top" onclick="scrollToTop()">Remonter en haut</button>
+
+		<script>
+			window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+var scrollToTopButton = document.getElementById("scroll-to-top");
+
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+scrollToTopButton.style.display = "block";
+} else {
+scrollToTopButton.style.display = "none";
+}
+}
+
+function scrollToTop() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+		</script>
+
+	</body>
+</html>
